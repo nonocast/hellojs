@@ -1,0 +1,17 @@
+{
+  "name": "hellojs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nonocast/hellojs.git",
+  "author": "Hui Cao <nonocast@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env DEBUG=hellojs node index",
+    "test": "cross-env DEBUG=hellojs node test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cross-env": "^6.0.3",
+    "debug": "^4.1.1"
+  }
+}
